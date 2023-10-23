@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="threejs"></div>
+    <form class="choose">
+      <fieldset>
+        <label><input type="radio" name="color" value="red" />Красный</label>
+        <label><input type="radio" name="color" value="blue" />Синий</label>
+        <label><input type="radio" name="color" value="green" />Зеленый</label>
+      </fieldset>
+      <fieldset>
+        <label>
+          <input
+            type="checkbox"
+            name="directionalLight"
+            checked
+          />DirectionLight
+        </label>
+        <label
+          ><input
+            type="checkbox"
+            name="hemiLight"
+            checked
+          />HemisphereLight</label
+        >
+      </fieldset>
+    </form>
+    <script src="/scripts/three.js"></script>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
